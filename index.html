@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Tanishqa Trivedi — B.Tech Genetics and AI student at Lovely Professional University, exploring genetics, bioinformatics and AI.">
+<title>Tanishqa Trivedi — Genetics & AI</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="progress" id="progress"></div>
+<header class="nav-wrap">
+  <nav class="nav" aria-label="Main navigation">
+    <a class="brand" href="#home">Tanishqa<span>.</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false"><span></span><span></span></button>
+    <div class="nav-links" id="navLinks">
+      <a href="#about">About</a><a href="#academics">Academics</a><a href="#work">Projects</a><a href="#credentials">Credentials</a><a href="#interests">Interests</a>
+      <button class="theme-toggle" id="themeToggle" type="button" aria-label="Switch to dark mode"><span class="theme-icon" aria-hidden="true">☾</span><span class="theme-label">Dark</span></button>
+      <a class="nav-cta" href="#contact">Connect</a>
+    </div>
+  </nav>
+</header>
+
+<main>
+<section class="hero" id="home">
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <p class="status"><span class="pulse"></span>B.Tech student at Lovely Professional University</p>
+      <h1>Hi, I’m Tanishqa. I study how <span class="hl">genetics</span> and AI fit together.</h1>
+      <p class="lead">I’m learning how biological systems work and how computational tools help us understand them, with a focus on genetics, bioinformatics and AI in life-science research.</p>
+      <div class="actions"><a class="btn" href="#work">See my project</a><a class="link" href="#contact">Get in touch</a></div>
+    </div>
+    <div class="lab" aria-labelledby="labTitle">
+      <h2 id="labTitle" class="lab-title">Try it: a tiny DNA lab</h2>
+      <label class="field" for="dna">Type a DNA sequence (A, T, G, C)</label>
+      <input id="dna" type="text" maxlength="30" value="ATGGCCATTGTAATGGGCCGC" spellcheck="false" autocomplete="off">
+      <div class="strand" id="strandTop" aria-label="Your strand"></div>
+      <div class="strand comp" id="strandComp" aria-label="Complementary strand"></div>
+      <p class="row-label">Protein it would build</p>
+      <div class="protein" id="protein"></div>
+      <div class="stats"><div><b id="statLen">0</b><span>bases</span></div><div><b id="statGC">0%</b><span>GC content</span></div><div><b id="statAA">0</b><span>amino acids</span></div></div>
+      <div class="lab-actions"><button type="button" id="randomBtn">Random sequence</button><button type="button" id="mutateBtn">Mutate one base</button></div>
+      <p class="lab-note" id="labNote">Each three bases make one codon, and each codon picks an amino acid.</p>
+      <p class="fine">A learning illustration, not a clinical or research tool.</p>
+    </div>
+  </div>
+</section>
+
+<div class="ticker" aria-hidden="true"><div class="ticker-track"><span>Genomic data</span><i></i><span>Machine learning</span><i></i><span>Bioinformatics</span><i></i><span>Scientific discovery</span><i></i><span>Genomic data</span><i></i><span>Machine learning</span><i></i><span>Bioinformatics</span><i></i><span>Scientific discovery</span><i></i></div></div>
+
+<section class="section" id="about">
+  <div class="wrap split">
+    <div class="side"><h2>Curious by nature. Computational by choice.</h2></div>
+    <div class="body">
+      <p class="big">I’m pursuing a B.Tech in Genetics &amp; AI at Lovely Professional University, Punjab.</p>
+      <p>My interests sit between genetics, artificial intelligence and data-driven discovery: computational genetics, bioinformatics, biotechnology and the role intelligent tools can play in healthcare and life-science research.</p>
+      <p>I like building fundamentals and approaching problems carefully, from understanding the biological question to choosing a suitable method and evaluating the results.</p>
+      <blockquote>Good technology starts with asking the right scientific question.</blockquote>
+      <dl class="facts"><div><dt>University</dt><dd>Lovely Professional University</dd></div><div><dt>Location</dt><dd>Punjab, India</dd></div><div><dt>Focus</dt><dd>Computational genetics, bioinformatics, AI</dd></div></dl>
+      <a class="link" href="https://www.linkedin.com/in/tanishqa-trivedi-89ba56421/" target="_blank" rel="noreferrer">LinkedIn profile ↗</a>
+    </div>
+  </div>
+</section>
+
+<section class="section tint" id="academics">
+  <div class="wrap split">
+    <div class="side"><h2>Where science meets computation</h2><p class="muted">My degree lets me study biological systems alongside the computational tools used to explore them.</p></div>
+    <div class="body">
+      <h3 class="degree">Bachelor of Technology in Genetics &amp; Artificial Intelligence</h3>
+      <p>Studying the foundations of genetics and AI, with an interest in applying computational thinking to biological questions, bioinformatics and healthcare research.</p>
+      <h3 class="sub">Current focus</h3>
+      <p>Connecting inheritance, alleles, genotypes and phenotypes with computational approaches. The EDU-REVOLUTION project in Basic Genetics is one example.</p>
+      <div class="tags"><span>Genetics</span><span>Programming</span><span>AI foundations</span><span>Scientific reasoning</span></div>
+      <h3 class="sub">Where I’m heading</h3>
+      <ol class="path">
+        <li><b>Build foundations</b><span>Programming, statistics, genetics</span></li>
+        <li><b>Explore bioinformatics</b><span>Biological data, sequence analysis</span></li>
+        <li><b>Apply AI thoughtfully</b><span>Machine learning, model evaluation</span></li>
+      </ol>
+      <p class="fine">A learning direction, not a claim of completed coursework or expertise.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="work">
+  <div class="wrap">
+    <div class="work-head"><h2>Learning through projects</h2><p class="muted">The academic work I’m exploring right now.</p></div>
+    <div class="work-grid">
+      <div class="work-copy">
+        <p class="status"><span class="pulse"></span>Academic project · in progress</p>
+        <h3 class="proj">EDU-REVOLUTION: AI-assisted Mendelian genetics</h3>
+        <p>An academic project exploring how model organisms can be used to predict Mendelian genetics and estimate possible future genotypes and phenotypes with the help of AI.</p>
+        <p>It connects inheritance, alleles, genotypes and phenotypes with structured computational thinking. It is a learning project, not a validated clinical prediction system.</p>
+        <div class="tags"><span>Basic Genetics</span><span>AI concepts</span><span>Model organisms</span></div>
+      </div>
+      <div class="punnett" aria-labelledby="pTitle">
+        <h3 id="pTitle" class="lab-title">Try it: cross two parents</h3>
+        <div class="selects"><label>Parent 1<select id="p1"><option>Aa</option><option>AA</option><option>aa</option></select></label><span class="x">×</span><label>Parent 2<select id="p2"><option>Aa</option><option>AA</option><option>aa</option></select></label></div>
+        <div class="square" id="square" role="table" aria-label="Punnett square"></div>
+        <div class="bars" id="bars"></div>
+        <p class="lab-note" id="pNote"></p>
+        <p class="fine">A is dominant, a is recessive. Simple single-gene inheritance only.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section tint" id="credentials">
+  <div class="wrap split">
+    <div class="side"><h2>Small steps, real momentum</h2><p class="muted">Courses, participation and academic engagements from my portfolio.</p>
+      <div class="filters" role="group" aria-label="Filter credentials"><button class="on" data-f="all">All</button><button data-f="course">Courses</button><button data-f="event">Events</button><button data-f="project">Project</button></div></div>
+    <div class="body">
+      <ul class="creds" id="creds">
+        <li data-t="course"><div><h3>Agentic AI: Learn Agent Memory and AI Skills</h3><p>Scaler Topics · Free Agentic AI Course with Certification 2026.</p></div><span class="meta">Certificate<br>04 Nov 2026</span></li>
+        <li data-t="course"><div><h3>Coding Essentials: Logic Building for Beginners</h3><p>Scaler Topics · 3 modules and 23 video tutorials on problem-solving, flowcharts, pseudocode and coding basics.</p></div><span class="meta">Certificate<br>04 Nov 2026</span></li>
+        <li data-t="event"><div><h3>CODE FLUX 2026</h3><p>Certificate of participation in a 36-hour hackathon at Lovely Professional University, focused on innovation, teamwork and problem-solving.</p></div><span class="meta">Participant<br>12–13 Sep 2026</span></li>
+        <li data-t="event"><div><h3>ICANN 2026 Conference</h3><p>Conference registration documented in my academic portfolio. Registration is not presented as proof of attendance.</p></div><span class="meta">Registered<br>2026</span></li>
+        <li data-t="event"><div><h3>ICANN 2026 Workshop</h3><p>Workshop registration receipt included in my portfolio, reflecting an interest in research discussions and learning.</p></div><span class="meta">Registered<br>2026</span></li>
+        <li data-t="project"><div><h3>EDU-REVOLUTION submission</h3><p>Portfolio evidence shows the project nomination submitted, with standing committee approval pending at the time of the record.</p></div><span class="meta">Pending<br>per source</span></li>
+      </ul>
+      <p class="fine">Only verified credentials and participation are listed; no awards or placements are implied.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="interests">
+  <div class="wrap split">
+    <div class="side"><h2>Building a bridge between two worlds</h2><p class="muted">Pick an area to see what I’m exploring.</p></div>
+    <div class="body">
+      <div class="tabs" role="tablist" aria-label="Areas of interest">
+        <button role="tab" class="on" aria-selected="true" data-i="0">Computational genetics</button>
+        <button role="tab" aria-selected="false" data-i="1">Bioinformatics</button>
+        <button role="tab" aria-selected="false" data-i="2">AI in healthcare</button>
+        <button role="tab" aria-selected="false" data-i="3">Research</button>
+      </div>
+      <div class="panel" id="panel" role="tabpanel" aria-live="polite"></div>
+      <div class="skills"><h3 class="sub">Tools I’m learning</h3><div class="tags"><span>Python</span><span>C</span></div><p class="fine">Languages listed without a self-rated proficiency level.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="wrap contact-in">
+    <div><h2>Let’s connect and learn together</h2><p>Open to connecting with students, mentors, researchers and people working across genetics, AI and life sciences.</p></div>
+    <div class="clinks"><a href="https://www.linkedin.com/in/tanishqa-trivedi-89ba56421/" target="_blank" rel="noreferrer"><b>LinkedIn</b><span>Connect professionally ↗</span></a><a href="https://github.com/tanishqa00700-cyber" target="_blank" rel="noreferrer"><b>GitHub</b><span>Explore my code profile ↗</span></a></div>
+  </div>
+</section>
+</main>
+<footer class="footer"><div class="wrap foot"><a class="brand" href="#home">Tanishqa<span>.</span></a><span>© <span id="year"></span> Tanishqa Trivedi</span><a href="#home">Back to top ↑</a></div></footer>
+<script src="script.js"></script>
+</body>
+</html>
